@@ -1,4 +1,4 @@
-# moodloader2
+# moodloader
 
 ## Project setup
 ```
