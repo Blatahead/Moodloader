@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Moodloader",
+	"version": "1.0.0",
+	"description": "Download any file or subject from your DVL dashboard",
+	"permissions": [
+	  "activeTab",
+	  "storage",
+	  "scripting"
+	],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html"
+	}
+  }
+  
