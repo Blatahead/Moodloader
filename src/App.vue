@@ -1,16 +1,19 @@
 <template>
 	<div id="app">
 		<Titre/>
-		<router-view/>
+		<!-- <TelechargementPage/> -->
+		<RouterView/>
 	</div>
 </template>
 
 <script>
 import Titre from './components/TitreComp.vue';
+// import TelechargementPage from './views/TelechargementPage.vue'
 
 export default {
 	components: {
-		Titre
+		Titre,
+		// TelechargementPage
 	}
 };
 </script>
